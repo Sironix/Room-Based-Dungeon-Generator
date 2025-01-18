@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Room" load_steps=4 format=3 uid="uid://ctctutk5dgmie"]
+
+[ext_resource type="Script" path="res://Room.gd" id="1_jaj6d"]
+[ext_resource type="Script" path="res://Room_Part.gd" id="2_k6d4m"]
+
+[sub_resource type="Resource" id="Resource_0vbnw"]
+script = ExtResource("2_k6d4m")
+part_place = Vector2i(0, 0)
+door_up = 1
+door_down = 1
+door_left = 0
+door_right = 0
+
+[resource]
+script = ExtResource("1_jaj6d")
+shape = Array[ExtResource("2_k6d4m")]([SubResource("Resource_0vbnw")])
+size = 1
+color = Color(1, 0.933333, 0, 1)

@@ -1,0 +1,7264 @@
+[gd_scene load_steps=2 format=3 uid="uid://s3xa136uviwx"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_8sqpt"]
+
+[node name="World" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8sqpt")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer2/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer3/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer4/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer5/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer6" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer6"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer6/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer7" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer7"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer7/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer8" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer8"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer8/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer9" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer9"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer9/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="HBoxContainer10" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control2"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control3" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control3"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control4" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control4"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control5" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control5"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control6" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control6"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control7" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control7"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control8" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control8"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control9" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control9"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
+
+[node name="Control10" type="Control" parent="VBoxContainer/HBoxContainer10"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect2" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.216667, 1, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -2.5
+offset_right = 2.5
+offset_bottom = 10.0
+grow_horizontal = 2
+
+[node name="ColorRect4" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -2.5
+offset_top = -10.0
+offset_right = 2.5
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect5" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -2.5
+offset_bottom = 2.5
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="ColorRect6" type="ColorRect" parent="VBoxContainer/HBoxContainer10/Control10"]
+visible = false
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -2.5
+offset_right = 10.0
+offset_bottom = 2.5
+grow_vertical = 2
